@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>portfolio website</title>
+    <link rel="stylesheet" href="portfolio.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/SocialIcons/1.0.1/soc.min.js"integrity="sha512-eUJ3eP9+avp5kHKhfx5gB0vzLEgMkZiOmZcpVqJmlg9hMMse2SChMOTSDWl6oYGfmYW2N7oO/W6CqpgYBneqKw=="crossorigin="anonymous" referrerpolicy="no-referrer"/>
+      
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="left">Divyansh Portfolio</div>
+        <div class="right"></div>
+        <ul>
+          <li><a href="">Home</a></li>
+          <li><a href="">About</a></li>
+          <li><a href="">Skills</a></li>
+          <li><a href="">Contacts</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <!-- -----------First Section--------------->
+      <section class="firstSection">
+        <div class="leftSection">
+          Hi, My Name is <span class="purple">Divyansh Nama</span>
+          <div>and I am a</div>
+          <span id="element"></span>
+        </div>
+
+        <div class="rightSection">
+          <img src="image/dev.png" alt="not found" />
+        </div>
+      </section>
+      <hr />
+
+      <!-- <----------Second Section------------------------>
+      <section class="secondSection">
+        <!-- <h1>About</h1> -->
+        <div id="about">
+          <div class="container">
+            <div class="row">
+              <div class="about-col-1">
+                <img src="image/profimag (2).png" />
+              </div>
+              <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                <p>
+                  Hello, I'm Divyansh Nama . I am a passionate and dedicated in
+                  Web Development. With a solid foundation in software, I have
+                  honed my abilities in web Development.Throughout my journey,
+                  I'll find a curated collection of my best work, showcasing my
+                  ability. believe that with my strong work ethic and creative
+                  problem-solving skills, sets me apart in web Development. I am
+                  excited to connect with like-minded individuals, collaborate
+                  on innovative projects, and continue pushing the boundaries of
+                  what is possible.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        </div>
+        <div class="box">
+          <div class="vertical">
+            <img class="image-top" src="image/imageTop.png" alt="">
+            <div class="vertical-title">
+              Web Development
+            </div>
+            <div class="vertical-desc">
+              HTML <div>CSS</div> <div>JavaScript</div> <div>bootStrap</div>
+            </div>
+          </div>
+          
+            <div class="vertical">
+              <img class="image-top" src="image/imageTop.png" alt="">
+              <div class="vertical-title">
+                Education
+              </div>
+              <div class="vertical-desc">
+                <ul>
+                  <li>Senior Secondary School(2020)</li>
+                  <li>Higher Secondary School(2021-2022)</li>
+                  <li>BTECH in Information Technology(2023-2026)</li>
+                </ul>
+            </div>
+          </div>
+          
+            <div class="vertical">
+              <img class="image-top" src="image/imageTop.png" alt="">
+              <div class="vertical-title">
+                Internship
+              </div>
+              <div class="vertical-desc">
+                <ul>
+                  <li> 30 Days Campus Ambasader Internship at PREGRAD</li>
+                  <li> 30 Days Internship from INTERNPE</li>
+                  <li> 30 Days Internship From CODSOFT</li>
+                </ul>
+            </div>
+          </div>
+      </section>
+    </main>
+    <!-- -------------------Footer----------------- -->
+    <footer class="footerContainer">
+      <div class="socialIcons">
+
+       <img src="logo/linkedin.png" alt="">
+       <img src="logo/insta.png" alt="">
+       <img src="logo/fb.png" alt="">
+       <img src="logo/git.png" alt="">
+      </div>
+      
+      <p class="footerTag">CopyRights @2023</p>
+    </footer>
+
+
+    <!-- -------------------Script------------------>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script>
+      var typed = new Typed("#element", {
+        strings: ["Web developer"],
+        typeSpeed: 50,
+      });
+    </script>
+  </body>
+</html>
